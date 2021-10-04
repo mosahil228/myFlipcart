@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+.lContainer{
+    display: flex;
+    
+}
+.loginM{
+  
+    display: grid;
+    grid-template-columns: 33rem 48rem;
+    grid-template-rows: 55rem;
+    justify-content: center;
+    margin: 3rem 0;
+    /* align-items: center; */
+   
+}
+.rowL1{
+   
+    background-color: #2874f0;
+    box-shadow: 0 6px 6px 0 rgb(0 0 0 / 20%);
+}
+.rowL1 h1{
+    font-size: 2.8rem;
+    font-weight: 500;
+    color: #fff;
+    margin: 4rem 0 0 3rem;
+}
+.lLogo{
+    position: relative;
+    top: 15rem;
+}
+.rH{
+    margin: 2rem 0 0 3rem;
+    line-height: 150%;
+    font-size: 1.5rem;
+    
+    color: #dbdbdb;
+    font-family: 'Klee One', cursive;
+    letter-spacing: 0;
+}
+   
+
+
+.H1{
+    padding-bottom: .8rem;
+}
+
+   
+.rowL2{
+    background-color: #fff;
+    box-shadow: 0 6px 6px 0 rgb(0 0 0 / 20%);
+   
+}
+.lastF{
+    position: relative;
+    top: 41px;
+}
+.lastF a{
+    color: #2691d9;
+    font-size: 12px;
+    text-decoration: none;
+}
+.lastF a:hover{
+    
+    text-decoration: underline;
+}
+
+
+
+
+.rowL2 form{
+    padding: 0 4rem;
+}
+.form-row{
+    margin-top: 7rem;
+}
+.txt-field{
+    position: relative;
+    border-bottom: 1px solid #adadad;
+    margin: 3rem 0;
+}
+.txt-field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.txt-field label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 1.6rem;
+    pointer-events: none;
+    transition: .3s;
+    font-weight: 500;
+}
+.txt-field a{
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    font-weight: 500;
+    font-size: 13px;
+    cursor: pointer;
+    color: #2874f0;
+    text-decoration: none;
+}
+.txt-field a:hover{
+    text-decoration: underline;
+}
+.txt-field span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width:0;
+    height: 1px;
+    background: #2691d9;
+    transition: .3s;
+
+
+}
+.txt-field input:focus ~ label,
+.txt-field input:valid ~ label{
+    top: -5px;
+    color: #2691d9;
+    font-size: 12px;
+}
+.txt-field input:focus ~ span::before,
+.txt-field input:valid ~ span::before{
+    width: 100%;
+}
+.details{
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+}
+.details a{
+    text-decoration: none;
+    color: #2691d9;
+}
+.details a:hover{
+    text-decoration: underline;
+}
+.lBtn button:hover{
+    background-color:#fb641b;
+   
+   
+   
+}
+.lBtn button{
+    color: #fff;
+    padding: 1.4rem;
+    font-size: 15px;
+    background-color:#fb641b;
+  
+    box-shadow: 0 6px 6px 0 rgb(0 0 0 / 20%);
+    border: none;
+    margin-top: 3rem;
+    width: 90%;
+
+}
+
+.lBtn2 button{
+    color: #2691d9;
+    padding: 1.4rem;
+    font-size: 15px;
+    background-color:#fff;
+    box-shadow: 0 6px 6px 0 rgb(0 0 0 / 20%);
+    border: none;
+    margin-top: 3rem;
+    width: 90%;
+    text-transform:capitalize;
+    font-weight: 500;
+
+}
+.oR{
+    text-align: center;
+    color: #878787;
+    padding-top: 2rem;
+  
+    font-size: 2rem;
+}
+
+
+/* responsive login form */
+@media(max-width:968px){
+    .lastF{
+        position:static;
+        padding-top: 1rem;
+
+    }
+    .lBtn1 button, .lBtn2 button{
+        padding: 1rem;
+    }
+}
+@media(max-width:835px){
+    .details{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+}
+@media(max-width:630px){
+    .loginM{
+        grid-template-columns: 76rem;
+    grid-template-rows: 33rem 65rem;
+    }
+    .lastF{
+        padding-top: 4rem;
+    }
+    .details{
+        font-size: 1.8rem;
+    }
+    .lBtn2 button{
+        padding: 2rem;
+    }
+    .lBtn button{
+        padding: 2rem;
+    }
+    .lLogo{
+        position: static;
+
+    }
+}
+@media(max-width:575px){
+    .loginM{
+        grid-template-columns: 64rem;
+    grid-template-rows: 33rem 65rem;
+    }
+
+}
+@media(max-width:512px){
+    .loginM{
+        grid-template-columns: 58rem;
+    
+    }
+    .details{
+        font-size: 1.3rem;
+    }
+}
+@media(max-width:448px){
+    .loginM{
+        grid-template-columns: 55rem;
+    
+    }
+   
+
+}
+@media(max-width:410px){
+    .loginM{
+        grid-template-columns: 48rem;
+    
+    }
+    .lBtn button {
+       width: 75%;
+    }
+    .lBtn2 button {
+       width: 75%;
+    }
+   
+
+}
+@media(max-width:360px){
+    .loginM{
+        grid-template-columns: 40rem;
+    
+    }
+    .details {
+        font-size: 1rem;
+    }
+    
+}
+@media(max-width:310px){
+    .loginM{
+        grid-template-columns: 36rem;
+    
+    }
+   
+    
+}
