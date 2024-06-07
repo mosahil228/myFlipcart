@@ -81,10 +81,10 @@ const Footer = () => {
               <div>MAIL US:</div>
             </div>
             <div className="rowLinks p-l b-left flex ">
-              <p>mosahil228@gmail.com</p>
-              <p>Million dollar private Limited,</p>
-              <p> 11/270 Gwaltoli,Souterganj</p>
-              <p>Kanpur,Uttar Pradesh</p>
+              <p>ritikshm30@gmail.com</p>
+              <p>Ritik private Limited,</p>
+              <p> 11/270 XYZ</p>
+              <p>XYZ STATE</p>
               <p>India</p>
             </div>
           </div>
@@ -93,11 +93,10 @@ const Footer = () => {
               <div>Registerd Office</div>
             </div>
             <div className="rowLinks flex ">
-              <p>mosahil228@gmail.com</p>
-              <p>+916391691999</p>
-              <p>Million dollar private Limited,</p>
-              <p> 11/270 Gwaltoli,Souterganj</p>
-              <p>Kanpur,Uttar Pradesh</p>
+              <p>ritikshm30@gmail.com</p>
+              <p>Ritik private Limited,</p>
+              <p>XYZ</p>
+              <p>XYZ</p>
               <p>India</p>
             </div>
           </div>
